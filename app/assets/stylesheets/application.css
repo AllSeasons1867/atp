@@ -43,6 +43,12 @@
     font-size: 1.5rem;
 }
 
+.story {
+    font-size: 1.25rem;
+    text-align: justify;
+}
+
 #portfolio {
     width: 60%;
 }
+
