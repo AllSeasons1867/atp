@@ -28,7 +28,7 @@
     /* background-color: blue; */
 }
 
-.titleimage {
+.titleimage, .environments {
     text-align: center;
 }
 
@@ -43,7 +43,7 @@
     font-size: 1.5rem;
 }
 
-.story {
+.story, .macro, .performance {
     font-size: 1.25rem;
     text-align: justify;
 }
@@ -52,3 +52,14 @@
     width: 60%;
 }
 
+#environments {
+    width: 50%;
+}
+
+#performance {
+    width: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+}
