@@ -36,8 +36,12 @@
         width: 90%;
     }
 
-    h1 {
+    .body .titleimage h1 {
         font-size: 3rem;
+    }
+
+    .allocation {
+        font-size: 1rem;
     }
 }
 
@@ -55,6 +59,14 @@
     #portfolio, #environments, #performance {
         width: 90%;
     }
+
+    .body .titleimage h1 {
+        font-size: 4rem;
+    }
+
+    .allocation {
+        font-size: 2.25rem;
+    }
 }
 
 @media screen and (min-width: 1500px) {
@@ -70,6 +82,14 @@
     
     #portfolio, #environments, #performance {
         width: 80%;
+    }
+
+    .body .titleimage h1 {
+        font-size: 5rem;
+    }
+
+    .allocation {
+        font-size: 2.5rem;
     }
 
 }
