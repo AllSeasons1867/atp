@@ -107,3 +107,31 @@ body {
 .titleimage h1 {
     margin-top: 20px; /* Adjust this value as needed */
 }
+
+// Hambuger button code
+@media (max-width: 768px) {
+    /* Hide the regular navbar links on small screens */
+    .navbar-nav {
+      display: none;
+    }
+    
+    /* Show the hamburger button on small screens */
+    .navbar-toggle {
+      display: block;
+    }
+    
+    /* Style for the hamburger icon bars */
+    .icon-bar {
+      background-color: #ffffff; /* Adjust as needed */
+    }
+    
+    /* Override Bootstrap's default navbar collapse behavior */
+    .navbar-collapse.collapse {
+      display: none !important;
+    }
+    
+    .navbar-collapse.collapse.in {
+      display: block !important;
+    }
+  }
+  
