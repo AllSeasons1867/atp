@@ -33,7 +33,7 @@
         /* background-color: blue; */
     }
     
-    #portfolio, #environments, #performance {
+    #portfolio, #environments, #performance, #stats {
         width: 90%;
     }
 
@@ -57,7 +57,7 @@
         /* background-color: blue; */
     }
     
-    #portfolio, #environments, #performance {
+    #portfolio, #environments, #performance, #stats {
         width: 90%;
     }
 
@@ -81,7 +81,7 @@
         /* background-color: blue; */
     }
     
-    #portfolio, #environments, #performance {
+    #portfolio, #environments, #performance, #stats {
         width: 80%;
     }
 
@@ -120,6 +120,10 @@ h1 {
 }
 
 #performance {
+    width: 100%;
+}
+
+#stats {
     width: 100%;
 }
 
